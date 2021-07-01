@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type=text/css href="{{ url_for('static', filename='css/bootstrap.css') }}" />
+    <!-- Fontawesome -->
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+
+    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='css/style.css') }}" />
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:900,900i&display=swap" rel="stylesheet">
+    <title>Twitter Bot Detection</title>
+
+</head>
+
+<body>
+    <div id="backg">
+        <div style="padding: 20px">
+            <a class="navbar-brand" style=" font-size: 16px;float: right;color: #222; font-weight: bold;text-align: center;padding-left: 10px;text-decoration: none;font-family: 'Tahoma', sans-serif;" href="#">Contact & Credit</a>
+            <a class="navbar-brand" style=" font-size: 16px;float: right;color: #222; font-weight: bold;text-align: center;padding-left: 10px;text-decoration: none;font-family: 'Tahoma', sans-serif;" href="#">How To</a>
+            <a class="navbar-brand" style=" font-size: 16px;float: right;color: #222; font-weight: bold;text-align: center; padding-left: 10px;text-decoration: none;font-family: 'Tahoma', sans-serif;" href="#">Home</a>
+        </div>
+        <!-- hero section -->
+        <div class="container" id="hero">
+            <div class="row justify-content-end">
+                How to use
+            </div>
+        </div>
+        <!-- hero ends -->
+
+        <!-- intro-section -->
+    </div>
+
+    </div>
+
+    <div id="foo"></div>
+
+    <script type="text/javascript">
+        var v = '{{res}}';
+        document.getElementById('foo').innerHTML = '<img src="https://avatars.io/twitter/' + v + '"/>';
+    </script>
+    <script src="static/js/bootstrap.js"></script>
+</body>
+
+</html>

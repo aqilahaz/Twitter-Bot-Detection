@@ -1,0 +1,2 @@
+username,tweet_retweet_status,tweet_retweet_count,tweet_favorite_count,tweet_hashtags_count,tweet_urls_count,tweet_user_mentions_count,word_count,char_count,avg_word,lexical,Entropy
+jokowi,False,730.6086956521739,7154.5,0.0,0.9565217391304348,0.021739130434782608,17.47826086956522,152.3695652173913,7.857824382640138,0.2746753167993182,0.1840446126522462
